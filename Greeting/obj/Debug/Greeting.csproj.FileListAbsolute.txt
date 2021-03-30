@@ -1,0 +1,7 @@
+C:\Users\acohi\source\repos\ConsoleApp5\Greeting\obj\Debug\Greeting.csprojAssemblyReference.cache
+C:\Users\acohi\source\repos\ConsoleApp5\Greeting\obj\Debug\Greeting.csproj.CoreCompileInputs.cache
+C:\Users\acohi\source\repos\ConsoleApp5\Greeting\bin\Debug\Greeting.exe.config
+C:\Users\acohi\source\repos\ConsoleApp5\Greeting\bin\Debug\Greeting.exe
+C:\Users\acohi\source\repos\ConsoleApp5\Greeting\bin\Debug\Greeting.pdb
+C:\Users\acohi\source\repos\ConsoleApp5\Greeting\obj\Debug\Greeting.exe
+C:\Users\acohi\source\repos\ConsoleApp5\Greeting\obj\Debug\Greeting.pdb
