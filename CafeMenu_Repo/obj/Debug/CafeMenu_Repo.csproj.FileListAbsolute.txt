@@ -1,0 +1,6 @@
+C:\Users\acohi\source\repos\ConsoleApp5\CafeMenu_Repo\bin\Debug\CafeMenu_Repo.dll
+C:\Users\acohi\source\repos\ConsoleApp5\CafeMenu_Repo\bin\Debug\CafeMenu_Repo.pdb
+C:\Users\acohi\source\repos\ConsoleApp5\CafeMenu_Repo\obj\Debug\CafeMenu_Repo.csprojAssemblyReference.cache
+C:\Users\acohi\source\repos\ConsoleApp5\CafeMenu_Repo\obj\Debug\CafeMenu_Repo.csproj.CoreCompileInputs.cache
+C:\Users\acohi\source\repos\ConsoleApp5\CafeMenu_Repo\obj\Debug\CafeMenu_Repo.dll
+C:\Users\acohi\source\repos\ConsoleApp5\CafeMenu_Repo\obj\Debug\CafeMenu_Repo.pdb

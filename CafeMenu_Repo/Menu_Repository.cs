@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Cafe_Menu
 {
-    class Menu_Repository
+   public class Menu_Repository
     {
 
         //Met"Gods" aka. Methods

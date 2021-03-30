@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Cafe_Menu
 {
-    class Menu
+   public class Menu
     {
         //properties, constructors, and fields for project
        
