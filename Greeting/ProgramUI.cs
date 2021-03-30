@@ -8,6 +8,7 @@ namespace Greeting
 {
     class ProgramUI
     {
+        //Main menu
         private Client_Repo _clientRepo = new Client_Repo();
 
         public void Run()
@@ -19,7 +20,7 @@ namespace Greeting
             bool running = true;
             while (running)
             {
-                Console.WriteLine("What Would You Like ToDo??\n"
+                Console.WriteLine("Please enter number corrisponding with your choice\n"
                     +"1: |Create a new client.....\n"+
                     "2: |Show client list........\n"+
                     "3: |Update current client...\n"+
@@ -50,15 +51,16 @@ namespace Greeting
                         break;
 
                     default:
-                        Console.WriteLine("Please enter valid option........");
+                        Console.WriteLine("Please enter valid option...");
                         break;
                 }
-                Console.WriteLine("press any key to continue...");
+                Console.WriteLine("Press any key to continue...");
                 Console.ReadKey();
                 Console.Clear();
             }
             
         }
+        //Creates new client for the list
         private void CreateNewClient()
         {
             Client client = new Client();
@@ -104,6 +106,7 @@ namespace Greeting
             _clientRepo.AddNewClient(client);
         }
 
+        //shows user current client list
         private void DisplayClientList()
         {
             Console.Clear();
@@ -118,6 +121,7 @@ namespace Greeting
                     $"Email to send to client is: {client.Email}");
             }
         }
+      // updates current client list
         private void UpdateExistingClient()
         {
             DisplayClientList();
@@ -172,9 +176,10 @@ namespace Greeting
             }
             else
             {
-                Console.WriteLine("YOU MESSED UP TRY HARDER!!!!!");
+                Console.WriteLine("Please enter a valid responce.......");
             }
         }
+        //deletes client from list
 
         private void DeleteClient()
         {
