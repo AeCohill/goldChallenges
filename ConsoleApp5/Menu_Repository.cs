@@ -27,11 +27,12 @@ namespace Cafe_Menu
         public bool DeleteFromMenu(int itemID)
         {
             Menu item = GetItemID(itemID);
-                if (item == null)
-            {
+            if (item == null)
+            { 
                 return false;
             }
             int initialCount = _menuOrders.Count;
+            _menuOrders.Remove(item);
             if (initialCount > _menuOrders.Count)
             {
                 return true;
@@ -42,7 +43,7 @@ namespace Cafe_Menu
             }
         }
         //helper
-
+        //GetItemByID
         public Menu GetItemID(int itemID)
         {
             foreach (Menu item in _menuOrders)
