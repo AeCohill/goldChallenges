@@ -19,9 +19,28 @@ namespace Greeting
             bool running = true;
             while (running)
             {
-                Console.WriteLine("What Would You Like ToDo??\n "+"1: |Create a new client.....\n"+"2: |Show client list........\n"+"3: |Update current client...\n"+"4: |Delete client...........\n"+"5: |EXIT....................\n");
+                Console.WriteLine("What Would You Like ToDo??\n"
+                    +"1: |Create a new client.....\n"+
+                    "2: |Show client list........\n"+
+                    "3: |Update current client...\n"+
+                    "4: |Delete client...........\n"+
+                    "5: |EXIT....................\n");
+
+                string userInput = Console.ReadLine();
+                switch (userInput)
+                {
+                    //create
+                    //display
+                    //update
+                    //delet
+                    case "1":
+                        CreateNewClient();
+                        break;
+                    default:
+                        break;
+                }
             }
-            Console.ReadLine();
+            
         }
     }
 }
