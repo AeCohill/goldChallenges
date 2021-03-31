@@ -6,7 +6,37 @@ using System.Threading.Tasks;
 
 namespace Claims_Repo
 {
-    class Claim_Repo
+    public class Claim_Repo
     {
+        private Queue<Claim> _queue = new Queue<Claim>();
+        //Helper Method
+        public void GotoNext()
+        {
+            Console.WriteLine(_queue.Peek());
+
+        }
+
+        //Get Claim
+        public Queue<Claim> GetQueue()
+        {
+            return _queue;
+
+        }
+        //Process Claim
+        public void DeQueueNext()
+        {
+            _queue.Dequeue();
+
+        }
+        //Create New Claim
+        public void CreateNew(Claim claim)
+        {
+           _queue.Enqueue(claim);
+
+        }
+      
+
+
+
     }
 }

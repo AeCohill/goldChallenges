@@ -4,13 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Badge_Console
+namespace Badges_Repo
 {
-   public class Program
+    public class Badge
     {
-        static void Main(string[] args)
-        {
-            
-        }
+        public Dictionary<int, string> badgeDict { get; set; }
     }
 }

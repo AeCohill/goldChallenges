@@ -1,0 +1,6 @@
+C:\Users\acohi\source\repos\ConsoleApp5\Claims_Repo\bin\Debug\Claims_Repo.dll
+C:\Users\acohi\source\repos\ConsoleApp5\Claims_Repo\bin\Debug\Claims_Repo.pdb
+C:\Users\acohi\source\repos\ConsoleApp5\Claims_Repo\obj\Debug\Claims_Repo.csprojAssemblyReference.cache
+C:\Users\acohi\source\repos\ConsoleApp5\Claims_Repo\obj\Debug\Claims_Repo.csproj.CoreCompileInputs.cache
+C:\Users\acohi\source\repos\ConsoleApp5\Claims_Repo\obj\Debug\Claims_Repo.dll
+C:\Users\acohi\source\repos\ConsoleApp5\Claims_Repo\obj\Debug\Claims_Repo.pdb

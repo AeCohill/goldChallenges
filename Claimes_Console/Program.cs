@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Claimes_Console;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -10,6 +11,8 @@ namespace Claims_Console
     {
         static void Main(string[] args)
         {
+            ProgramUI running = new ProgramUI();
+            running.Run();
 
         }
     }
