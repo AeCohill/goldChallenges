@@ -1,0 +1,17 @@
+C:\Users\micha\source\repos\Badges\BadgeTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\micha\source\repos\Badges\BadgeTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\micha\source\repos\Badges\BadgeTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\micha\source\repos\Badges\BadgeTests\bin\Debug\BadgeTests.dll
+C:\Users\micha\source\repos\Badges\BadgeTests\bin\Debug\BadgeTests.pdb
+C:\Users\micha\source\repos\Badges\BadgeTests\bin\Debug\Badges.exe
+C:\Users\micha\source\repos\Badges\BadgeTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Users\micha\source\repos\Badges\BadgeTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Users\micha\source\repos\Badges\BadgeTests\bin\Debug\Badges.pdb
+C:\Users\micha\source\repos\Badges\BadgeTests\bin\Debug\Badges.exe.config
+C:\Users\micha\source\repos\Badges\BadgeTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\Users\micha\source\repos\Badges\BadgeTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\Users\micha\source\repos\Badges\BadgeTests\obj\Debug\BadgeTests.csprojAssemblyReference.cache
+C:\Users\micha\source\repos\Badges\BadgeTests\obj\Debug\BadgeTests.csproj.CoreCompileInputs.cache
+C:\Users\micha\source\repos\Badges\BadgeTests\obj\Debug\BadgeTests.csproj.CopyComplete
+C:\Users\micha\source\repos\Badges\BadgeTests\obj\Debug\BadgeTests.dll
+C:\Users\micha\source\repos\Badges\BadgeTests\obj\Debug\BadgeTests.pdb

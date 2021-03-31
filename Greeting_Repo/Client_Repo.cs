@@ -5,8 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace Greeting
-{
-    class Client_Repo
+{   public class Client_Repo
     {
         //helper and instantation
         public Client GetClientByNumber(int clientNumber)

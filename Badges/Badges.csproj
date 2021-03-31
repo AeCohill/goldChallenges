@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{19CC92A1-641A-4254-BF7C-23C37D4A1D13}</ProjectGuid>
+    <ProjectGuid>{AA013AF7-8A88-47B6-A2E8-296BF62AFD98}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Greeting</RootNamespace>
-    <AssemblyName>Greeting</AssemblyName>
+    <RootNamespace>Badges</RootNamespace>
+    <AssemblyName>Badges</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -44,17 +44,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Program.cs" />
-    <Compile Include="ProgramUI.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\Greeting_Repo\Greeting_Repo.csproj">
-      <Project>{d347143a-9796-49b2-ad43-a3c0a0d490d9}</Project>
-      <Name>Greeting_Repo</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -1,0 +1,6 @@
+C:\Users\micha\source\repos\Badges\Badges\bin\Debug\Badges.exe.config
+C:\Users\micha\source\repos\Badges\Badges\bin\Debug\Badges.exe
+C:\Users\micha\source\repos\Badges\Badges\bin\Debug\Badges.pdb
+C:\Users\micha\source\repos\Badges\Badges\obj\Debug\Badges.csproj.CoreCompileInputs.cache
+C:\Users\micha\source\repos\Badges\Badges\obj\Debug\Badges.exe
+C:\Users\micha\source\repos\Badges\Badges\obj\Debug\Badges.pdb
