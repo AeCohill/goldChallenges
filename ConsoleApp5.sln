@@ -17,6 +17,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Claims_Repo", "Claims_Repo\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Badges_Repo", "Badges_Repo\Badges_Repo.csproj", "{36F505D6-2B41-4478-8237-65DB406532E0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Badge_Tests", "Badge_Tests\Badge_Tests.csproj", "{D5E12C80-7248-44C2-AB31-83CF27543330}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Badge_Console", "Badge_Console\Badge_Console.csproj", "{3B19B58C-EF26-4527-ACEF-3F3C24CABE9A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +55,14 @@ Global
 		{36F505D6-2B41-4478-8237-65DB406532E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{36F505D6-2B41-4478-8237-65DB406532E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{36F505D6-2B41-4478-8237-65DB406532E0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D5E12C80-7248-44C2-AB31-83CF27543330}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5E12C80-7248-44C2-AB31-83CF27543330}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5E12C80-7248-44C2-AB31-83CF27543330}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5E12C80-7248-44C2-AB31-83CF27543330}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B19B58C-EF26-4527-ACEF-3F3C24CABE9A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B19B58C-EF26-4527-ACEF-3F3C24CABE9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B19B58C-EF26-4527-ACEF-3F3C24CABE9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B19B58C-EF26-4527-ACEF-3F3C24CABE9A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Badges_Repo
 {
-    class ProgramUI
+    public class ProgramUI
     {
         public static Badge badge = new Badge();
 

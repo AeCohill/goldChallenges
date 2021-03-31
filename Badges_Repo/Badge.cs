@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace Badges_Repo
 {
-    public class Class1
+    public class Badge
     {
+        public Dictionary<int, string> badgeDict { get; set; }
     }
 }
