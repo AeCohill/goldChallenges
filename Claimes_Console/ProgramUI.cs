@@ -34,13 +34,13 @@ namespace Claimes_Console
                 switch (answer)
                 {
                     case "1":
-                        
+                        SeeClaims();
                         break;
                     case "2":
-                        
+                        NextClaim();
                         break;
                     case "3":
-                        
+                        NewClaim();
                         break;
                     case "4":
                         isRunning = false;
@@ -61,13 +61,14 @@ namespace Claimes_Console
 
             foreach (Claim claim in claims)
             {
-                Console.WriteLine($"Claim ID: {claim.ClaimNum}\n"+
-                    $"Claim ID: {claim.ClaimNum}........\n"+
-                    $"Description: {claim.Description}.....\n"+
+                Console.WriteLine(
+                    $"Claim ID: {claim.ClaimNum}...\n"+
+                    $"Description: {claim.Description}...\n"+
                     $"Date of Claim: {claim.DateOfClaim}...\n"+
-                    $"Date of Incident: {claim.ReportDate}\n"+
-                    $"Is Claim Valid: {claim.IsTrue}..\n"+
-                    $"Amount Paid: {claim.ClaimPrice}.....\n");
+                    $"Date of Incident: {claim.ReportDate}...\n"+
+                    $"Is Claim Valid: {claim.IsTrue}...\n"+
+                    $"Amount Paid: {claim.ClaimPrice}...\n"+
+                    "************************************");
             }
         } 
         private void NewClaim()
@@ -75,22 +76,34 @@ namespace Claimes_Console
             Claim claim = new Claim();
             Console.Clear();
 
-            Console.WriteLine("Enter Claim Number.");
+            Console.WriteLine("************************\n"
+                +"Enter Claim Number.\n"+ 
+                "****************************");
             claim.ClaimNum = Console.ReadLine();
 
-            Console.WriteLine("Enter the claim type.......................");
+            Console.WriteLine("*****************************************\n"+
+                "Enter the claim type.......................\n"+
+                "*****************************************");
             claim.ClaimType = Console.ReadLine();
 
-            Console.WriteLine("Enter the description of the claim.........");
+            Console.WriteLine("*****************************************\n"+
+                "Enter the description of the claim.........\n"+
+                "*****************************************");
             claim.Description = Console.ReadLine();
 
-            Console.WriteLine("Enter the date the incident took place.....");
+            Console.WriteLine("*****************************************\n"+
+                "Enter the date the incident took place.....\n"+
+                "*****************************************");
             claim.ReportDate = Console.ReadLine();
 
-            Console.WriteLine("Enter the date the customer made the claim.");
+            Console.WriteLine($"*****************************************\n"+
+                "Enter the date the customer made the claim.\n" +
+                "****************************************");
             claim.DateOfClaim = Console.ReadLine();
 
-            Console.WriteLine("Enter the amount paid for the claim........");
+            Console.WriteLine($"*****************************************\n"+
+                "Enter the amount paid for the claim........\n"+
+                "***************************************");
 
             string conversion = Console.ReadLine();
             claim.ClaimPrice = decimal.Parse(conversion);
@@ -98,7 +111,9 @@ namespace Claimes_Console
             bool isFalse = false;
             while (isFalse == false)
             {
-                Console.WriteLine("Is your selected claim valid? Enter 'yes or no'");
+                Console.WriteLine($"********************************\n"+
+                    "Is your selected claim valid? Enter 'yes or no'\n"+
+                    "***********************************");
                 string answer = Console.ReadLine().ToLower();
                 if (answer=="yes")
                 {
@@ -112,11 +127,50 @@ namespace Claimes_Console
                 }
                 else
                 {
-                    Console.WriteLine("Please enter a valid responce 'YES or NO'");
+                    Console.WriteLine($"***************************************\n"+
+                        "Please enter a valid responce 'YES or NO'\n"+
+                        "***************************************");
                 }
             }
+           
+
             _claims.CreateNew(claim);
+        }
+        private void NextClaim()
+        {
+            Console.Clear();
+
+            Console.WriteLine($"*****************************************\n"+
+                "Here is the next claim to be handled!/n"+
+                "*****************************************");
+
+            _claims.GetQueue();
+
+            Console.WriteLine($"*****************************************\n"+
+                "Do you want to deal with this claim now(yes/no)?\n"+
+                "*****************************************");
+            string answer = Console.ReadLine();
+            bool validResponse = false;
+            while (validResponse == false)
+            {
+                if (answer == "yes")
+                {
+                    _claims.DeQueueNext();
+                }
+                else if (answer == "no")
+                {
+                    Console.Clear();
+                    Menu();
+                }
+                else
+                {
+                    Console.WriteLine("******************\n"+
+                        "Please enter y or n\n"+
+                        "********************");
+                }
+            }
         }
     }
 }
+
 

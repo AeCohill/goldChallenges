@@ -20,12 +20,17 @@ namespace ConsoleApp5
             bool keepRunning = true;
             while (keepRunning)
             {
-                Console.WriteLine("What do you want to do? Note:YOU MUST ADD AN ITEM TO SEE ITEM LIST!:\n" +
-                    "1: Add item\n" +
-                    "2: Delete item\n" +
-                    "3: See menu\n" +
-                    "4: Exit\n" +
-                    "5: Dont Press");
+                Console.WriteLine(
+                    "***************************  Welcome  ******************************\n" +
+                    "What do you want to do?.............................................\n" + 
+                    "Note:YOU MUST ADD AN ITEM TO SEE ITEM LIST..........................\n" +
+                    "**************************  Options  *******************************\n" +
+                    "1: Add item.........................................................\n" +
+                    "2: Delete item......................................................\n" +
+                    "3: See menu.........................................................\n" +
+                    "4: Exit.............................................................\n" +
+                    "5: Dont Press.......................................................\n" +
+                    "**********************************************************************");
                 string answer = Console.ReadLine();
                 switch (answer)
                 {
@@ -120,4 +125,4 @@ namespace ConsoleApp5
             }
         }
     }
-    }
+}
