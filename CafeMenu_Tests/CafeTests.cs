@@ -34,6 +34,74 @@ namespace CafeMenu_Tests
 
 
         }
+        [TestMethod]
+        public void Delete_TestMethod()
+        {
+            Menu menu = new Menu();
+            Menu_Repository repo = new Menu_Repository();
+            repo.AddItemToMenu(menu);
+
+            List<Menu> list = repo.GetMenuItems();
+
+
+            int initial = list.Count;
+            repo.DeleteFromMenu(menu.MealNum);
+            int actual = list.Count;
+            int expected = initial - 1;
+
+            Assert.AreEqual(expected, actual);
+
+            
+        }
+        [TestMethod]
+        public void Delete_Test_False()
+        {
+
+            Menu menu = new Menu();
+            Menu_Repository repo = new Menu_Repository();
+            repo.AddItemToMenu(menu);
+
+            List<Menu> list = repo.GetMenuItems();
+
+
+            int initial = list.Count;
+            repo.DeleteFromMenu(menu.MealNum);
+            int actual = list.Count;
+            int expected = initial + 1;
+
+            Assert.AreNotEqual(expected, actual);
+
+
+        }
+        [TestMethod]
+        public void GetItemId()
+        {
+            
+            Menu menu = new Menu();
+            Menu_Repository repo = new Menu_Repository();
+            repo.AddItemToMenu(menu);
+            List<Menu> list = repo.GetMenuItems();
+            int initial = list.Count;
+            repo.GetItemID(menu.MealNum);
+
+            int actual = list.Count;
+            int expected = initial;
+
+            Assert.AreEqual(expected, actual);
+           
+
+
+
+            
+
+           
+
+            
+
+        }
+
+
+
 
     }
 }
