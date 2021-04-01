@@ -87,7 +87,7 @@ namespace CafeMenu_Tests
             int actual = list.Count;
             int expected = initial;
 
-            Assert.AreEqual(expected, actual);
+            Assert.IsNotNull(menu.MealNum);
            
 
 
