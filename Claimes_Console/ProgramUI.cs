@@ -141,7 +141,7 @@ namespace Claimes_Console
             Console.Clear();
 
             Console.WriteLine($"*****************************************\n"+
-                "Here is the next claim to be handled!/n"+
+                "Here is the next claim to be handled!\n"+
                 "*****************************************");
 
             _claims.GetQueue();
@@ -168,6 +168,8 @@ namespace Claimes_Console
                         "Please enter y or n\n"+
                         "********************");
                 }
+                validResponse = true;
+               
             }
         }
     }
