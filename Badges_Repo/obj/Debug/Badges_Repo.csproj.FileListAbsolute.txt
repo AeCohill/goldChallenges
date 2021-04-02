@@ -1,0 +1,2 @@
+C:\Users\acohi\source\repos\ConsoleApp5\Badges_Repo\obj\Debug\Badges_Repo.csprojAssemblyReference.cache
+C:\Users\acohi\source\repos\ConsoleApp5\Badges_Repo\obj\Debug\Badges_Repo.csproj.CoreCompileInputs.cache

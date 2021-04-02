@@ -23,6 +23,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Badge_Console", "Badge_Cons
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CafeMenu_Tests", "CafeMenu_Tests\CafeMenu_Tests.csproj", "{593A1925-D7AB-4F3D-96C7-D43D9C81FEE8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Claims_Tests", "Claims_Tests\Claims_Tests.csproj", "{FFA25C19-447F-4E03-A940-864AEBF1CDD7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Greetings_Tests", "Client_Tests\Greetings_Tests.csproj", "{A5DD0260-86C2-42D0-B38E-1D858476193F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -69,6 +73,14 @@ Global
 		{593A1925-D7AB-4F3D-96C7-D43D9C81FEE8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{593A1925-D7AB-4F3D-96C7-D43D9C81FEE8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{593A1925-D7AB-4F3D-96C7-D43D9C81FEE8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FFA25C19-447F-4E03-A940-864AEBF1CDD7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FFA25C19-447F-4E03-A940-864AEBF1CDD7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FFA25C19-447F-4E03-A940-864AEBF1CDD7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FFA25C19-447F-4E03-A940-864AEBF1CDD7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A5DD0260-86C2-42D0-B38E-1D858476193F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5DD0260-86C2-42D0-B38E-1D858476193F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5DD0260-86C2-42D0-B38E-1D858476193F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5DD0260-86C2-42D0-B38E-1D858476193F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,0 +1,2 @@
+C:\Users\acohi\source\repos\ConsoleApp5\Claims_Tests\obj\Debug\Claims_Tests.csprojAssemblyReference.cache
+C:\Users\acohi\source\repos\ConsoleApp5\Claims_Tests\obj\Debug\Claims_Tests.csproj.CoreCompileInputs.cache

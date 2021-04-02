@@ -17,7 +17,7 @@ namespace Claims_Repo
         }
 
         //Get Claim
-        public Queue<Claim> GetQueue()
+        public Queue<Claim> GetQueue(Q)
         {
             return _queue;
 
